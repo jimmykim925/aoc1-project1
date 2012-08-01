@@ -22,7 +22,7 @@
     float y = 5.2f;
     
     int result = (int)x/(int)y;
-    NSLog(@"%d", result);
+    NSLog(@"Result: %d", result);
     
     // Perform and AND, OR Comparison. Using float, int, and BOOL
     
@@ -33,7 +33,22 @@
     // Perform a nested loop printing out values to the console
     
     // Perform a while loop that increments an int variable and outputs to the console
+    int count = 0;
     
+    while (count < 10) {
+      NSLog(@"While Loop: %d\n", count);
+      
+      count++;
+    }
+    
+    int countDoWhile = 0;
+    
+    do
+    {
+      NSLog(@"Do While Loop: %d\n", countDoWhile);
+      
+      countDoWhile++;
+    } while (countDoWhile < 10);
     
     return YES;
 }
