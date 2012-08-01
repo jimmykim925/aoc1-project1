@@ -16,6 +16,25 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    // Casting a float to an int
+    float x = 10.5f;
+    float y = 5.2f;
+    
+    int result = (int)x/(int)y;
+    NSLog(@"%d", result);
+    
+    // Perform and AND, OR Comparison. Using float, int, and BOOL
+    
+    // Use an if, else if and else check
+    
+    // Perform a single for loop printing out values to the console
+    
+    // Perform a nested loop printing out values to the console
+    
+    // Perform a while loop that increments an int variable and outputs to the console
+    
+    
     return YES;
 }
 
