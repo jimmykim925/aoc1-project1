@@ -24,13 +24,27 @@
     int result = (int)x/(int)y;
     NSLog(@"Result: %d", result);
     
-    // Perform and AND, OR Comparison. Using float, int, and BOOL
+    // Perform an AND, OR Comparison. Using float, int, and BOOL
     
     // Use an if, else if and else check
     
     // Perform a single for loop printing out values to the console
+    for (int i = 0; i < 10; i++)
+    {
+      NSLog(@"Single For loop: %d\n", i);
+    }
     
     // Perform a nested loop printing out values to the console
+    int c = 3;
+    for (int a = 1; a <= 3; a++)
+    {
+      NSLog(@"1st loop: %d\n", a);
+      
+      for (int b = 1; b < c; b++);
+      {
+        NSLog(@"Nested loop: %d\n", c); 
+      }
+    }
     
     // Perform a while loop that increments an int variable and outputs to the console
     int count = 0;
