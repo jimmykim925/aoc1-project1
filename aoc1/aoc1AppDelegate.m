@@ -21,10 +21,10 @@
     
     // Casting a float to an int
     float applicationFee = 10.5f;
-    float discounts = 5.2f;
+    int dollarWithoutChange = (int)applicationFee;
     
-    int result = (int)applicationFee/(int)discounts;
-    NSLog(@"Dollars without change: $%d", result);
+    NSLog(@"Exact account balance: $%.2f", applicationFee);
+    NSLog(@"Account balance without change: $%d", dollarWithoutChange);
     
     // Perform an AND, OR Comparison. Using float, int, and BOOL
     BOOL positiveCashFlow = YES;
@@ -56,7 +56,7 @@
     }
     
     // Perform a nested loop printing out values to the console
-    int totalPayBackYears = 3;
+    int totalPayBackYears = 4;
     for (int currentYear = 1; currentYear <= 3; currentYear++)
     {
       NSLog(@"Current year of payments: %d\n", currentYear);
@@ -71,7 +71,7 @@
     int count = 1;
     
     while (count < 3) {
-      NSLog(@"Discounted rate if paid in years %d\n", count);
+      NSLog(@"Discounted if paid in years %d\n", count);
       
       count++;
     }
@@ -80,7 +80,7 @@
     
     do
     {
-      NSLog(@"Check bank account at least one time: %d\n", bankAccountCheck);
+      NSLog(@"Check bank account at least one time: $%d\n", bankAccountCheck);
       
       bankAccountCheck++;
     } while (bankAccountCheck <= 2);
