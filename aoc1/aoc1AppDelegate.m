@@ -20,10 +20,10 @@
     
     
     // Casting a float to an int
-    float x = 10.5f;
-    float y = 5.2f;
+    float applicationFee = 10.5f;
+    float discounts = 5.2f;
     
-    int result = (int)x/(int)y;
+    int result = (int)applicationFee/(int)discounts;
     NSLog(@"Dollars without change: $%d", result);
     
     // Perform an AND, OR Comparison. Using float, int, and BOOL
