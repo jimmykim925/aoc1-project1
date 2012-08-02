@@ -24,7 +24,7 @@
     float y = 5.2f;
     
     int result = (int)x/(int)y;
-    NSLog(@"Cast, float to int, result: %d", result);
+    NSLog(@"Dollars without change: $%d", result);
     
     // Perform an AND, OR Comparison. Using float, int, and BOOL
     BOOL positiveCashFlow = YES;
@@ -39,52 +39,51 @@
       NSLog(@"Lets brainstorm some more solutions");
     }
     
-    
-    // Use an if, else if and else check
+    // Use an if, else if, else
     float interestRates = 1.2f;
     if (interestRates >= 8.0){
-      NSLog(@"Lets wait to get a loan");
+      NSLog(@"That's an expensive rate");
     } else if ((interestRates < 8.0) && (interestRates >= 2.0)){
-      NSLog(@"We need to think about getting a loan");
+      NSLog(@"Lets think about it more");
     } else {
-      NSLog(@"Lets get a loan fast");
+      NSLog(@"That's a great rate for us");
     }
     
     // Perform a single for loop printing out values to the console
-    for (int i = 0; i < 10; i++)
+    for (int i = 1; i < 5; i++)
     {
-      NSLog(@"Single For loop: %d\n", i);
+      NSLog(@"Years to pay back loan: %d\n", i);
     }
     
     // Perform a nested loop printing out values to the console
-    int c = 3;
-    for (int a = 1; a <= 3; a++)
+    int totalPayBackYears = 3;
+    for (int currentYear = 1; currentYear <= 3; currentYear++)
     {
-      NSLog(@"1st loop: %d\n", a);
+      NSLog(@"Current year of payments: %d\n", currentYear);
       
-      for (int b = 1; b < c; b++);
+      for (int j = 1; j < totalPayBackYears; j++);
       {
-        NSLog(@"Nested loop: %d\n", c); 
+        NSLog(@"Paid off in %d years \n", totalPayBackYears);
       }
     }
     
     // Perform a while loop that increments an int variable and outputs to the console
-    int count = 0;
+    int count = 1;
     
-    while (count < 10) {
-      NSLog(@"While Loop: %d\n", count);
+    while (count < 3) {
+      NSLog(@"Discounted rate if paid in years %d\n", count);
       
       count++;
     }
     
-    int countDoWhile = 0;
+    int bankAccountCheck = 3;
     
     do
     {
-      NSLog(@"Do While Loop: %d\n", countDoWhile);
+      NSLog(@"Check bank account at least one time: %d\n", bankAccountCheck);
       
-      countDoWhile++;
-    } while (countDoWhile < 10);
+      bankAccountCheck++;
+    } while (bankAccountCheck <= 2);
     
     return YES;
 }
