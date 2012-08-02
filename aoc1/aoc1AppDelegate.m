@@ -3,7 +3,8 @@
 //  aoc1
 //
 //  Created by Jimmy Kim on 7/31/12.
-//  Copyright (c) 2012 Jimmy Kim. All rights reserved.
+//  AOC 1 - TERM 1208
+//  
 //
 
 #import "aoc1AppDelegate.h"
@@ -23,11 +24,20 @@
     float y = 5.2f;
     
     int result = (int)x/(int)y;
-    NSLog(@"Result: %d", result);
+    NSLog(@"Cast, float to int, result: %d", result);
     
     // Perform an AND, OR Comparison. Using float, int, and BOOL
+    BOOL positiveCashFlow = YES;
+    float loanRate = 4.5f;
+    int payBackInYears = 10;
     
-    
+    if ((loanRate <= 5) && (positiveCashFlow = YES)){
+       NSLog(@"Negotiate to pay back the loan in %d years", payBackInYears);
+    } else if ((loanRate > 5) || (positiveCashFlow = NO)){
+      NSLog(@"Do not get a loan for the building");
+    } else {
+      NSLog(@"Lets brainstorm some more solutions");
+    }
     
     
     // Use an if, else if and else check
