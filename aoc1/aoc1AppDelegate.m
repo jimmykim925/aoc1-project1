@@ -17,6 +17,7 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
+    
     // Casting a float to an int
     float x = 10.5f;
     float y = 5.2f;
@@ -26,7 +27,18 @@
     
     // Perform an AND, OR Comparison. Using float, int, and BOOL
     
+    
+    
+    
     // Use an if, else if and else check
+    float interestRates = 1.2f;
+    if (interestRates >= 8.0){
+      NSLog(@"Lets wait to get a loan");
+    } else if ((interestRates < 8.0) && (interestRates >= 2.0)){
+      NSLog(@"We need to think about getting a loan");
+    } else {
+      NSLog(@"Lets get a loan fast");
+    }
     
     // Perform a single for loop printing out values to the console
     for (int i = 0; i < 10; i++)
