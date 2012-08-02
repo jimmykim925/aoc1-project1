@@ -1,10 +1,9 @@
 //
 //  aoc1AppDelegate.m
-//  aoc1
+//  testApp
 //
-//  Created by Jimmy Kim on 7/31/12.
-//  AOC 1 - TERM 1208
-//  
+//  Created by Jimmy Kim on 8/2/12.
+//  Copyright (c) 2012 Jimmy Kim. All rights reserved.
 //
 
 #import "aoc1AppDelegate.h"
@@ -17,7 +16,6 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
-    
     
     // Casting a float to an int
     float applicationFee = 10.5f;

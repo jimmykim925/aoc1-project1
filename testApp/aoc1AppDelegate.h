@@ -1,8 +1,8 @@
 //
 //  aoc1AppDelegate.h
-//  aoc1
+//  testApp
 //
-//  Created by Jimmy Kim on 7/31/12.
+//  Created by Jimmy Kim on 8/2/12.
 //  Copyright (c) 2012 Jimmy Kim. All rights reserved.
 //
 
